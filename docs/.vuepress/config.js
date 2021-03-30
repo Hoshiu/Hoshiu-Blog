@@ -77,12 +77,12 @@ function getCSS() {
                 '盒模型'
             ]
         },
-        {
-            title: 'JavaScript进阶',
-            children: [
-                'upgrade1'
-            ]
-        }
+        // {
+        //     title: 'JavaScript进阶',
+        //     children: [
+        //         'upgrade1'
+        //     ]
+        // }
     ]
 }
 
