@@ -30,8 +30,8 @@ module.exports = {
             text: '面试',
             ariaLabel: 'interview',
             items: [
-                {text: '面试题', link:'/ivList/'},
-                // {text: '模拟面试', link:'/ivMock/'}
+                {text: '面试基础', link:'/ivList/'},
+                {text: '模拟面试', link:'/ivMock/'}
             ]
         },
         {text: 'GitHub', link: 'https://github.com/Hoshiu'}      
@@ -44,7 +44,7 @@ module.exports = {
         // '/Vue/': getVue(),
         // '/React/': getReact(),
         '/ivList/': getIvList(),
-        // '/ivMock/': getIvMock(), 
+        '/ivMock/': getIvMock(), 
         // '/LeetCode/List/': getList()
     }
 }
@@ -89,16 +89,20 @@ function getCSS() {
 function getIvList() {
     return [
         {
-            title: 'HTML+CSS相关',
+            title: '前端基础',
             children: [
-                'HTML相关面试题整理'
+                'HTML_HTTP_浏览器相关','CSS'
             ]
         },
+    ]
+}
+function getIvMock() {
+    return [
         {
-            title: '浏览器相关',
+            title: '模拟面试',
             children: [
-                '浏览器相关'
+                'Mock'
             ]
-        }
+        },
     ]
 }
